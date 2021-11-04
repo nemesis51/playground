@@ -1,4 +1,85 @@
-<root>
- <test>hi</test>
-</root>
-changes
+<garage> <!-- This is example 1 -->
+    <car id="1" color="" ></car>
+    <car id="2" ></car>
+</garage>
+
+
+<!-- This is a example 2 -->
+<garage>
+    <car>
+        <color>red</color>
+        <seats>4</seats>
+    </car>
+    <car>
+        <color>blue</color>
+        <seats>6</seats>
+    </car>
+</garage>
+
+
+
+
+garage.car.attribute["color"]
+
+garage.car.color
+
+'
+"
+
+<gangster name='George "Shotgun" Ziegler'>
+
+<gangster name="George's Shotgun">
+
+<gangster name='George&apos;s "Shotgun" Ziegler'>
+
+<test>
+
+</test>
+
+<!-- Element vs Attribute -->
+<note>
+  <date>2008-01-10</date>
+  <to>Tove</to>
+  <from>Jani</from>
+</note>
+
+
+<note>
+  <date>
+    <year>2008</year>
+    <month>01</month>
+    <day>10</day>
+  </date>
+  <to>Tove</to>
+  <from>Jani</from>
+</note>
+
+
+note.date.getDay()
+
+note.date
+
+note.date.year-note.date.month-note.date.day
+
+
+
+<!-- Namespaces --> 
+<myApp
+xmlns:store="http://www.w3.org/store"
+xmlns:item="http://www.w3.org/item">
+    <store:outlet>
+        <address>123</address>
+        <items>
+            <item:outlet>
+                <watts>140</watts>
+            </item:outlet>
+        </items>
+    </store:outlet>
+</myApp>
+
+
+store:outlet.address
+
+item:outlet.watts
+
+myVariable
